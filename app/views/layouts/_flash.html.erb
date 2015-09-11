@@ -1,7 +1,11 @@
 <% if notice.present? %>
-  <p class="alert alert-notice"><%= notice %></p>
+  <div class="alert alert-info col-xs-4 col-xs-offset-4 text-center" role = 'alert' style="margin-top: 40px; margin-bottom: -20px;">
+    <h5><%= notice %></h5>
+  </div>
 <% end %>
 
 <% if alert.present? %>
-  <p class="alert alert-danger"><%= alert %></p>
+  <div class="alert alert-danger col-xs-4 col-xs-offset-4 text-center" role = 'alert' style="margin-top: 40px; margin-bottom: -20px;">
+    <h5><%= alert %></h5>
+  </div>
 <% end %>
