@@ -1,15 +1,23 @@
 // Customizations and Overrides //
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
 
 // HTML Elements //
 
 body {
   padding-top: 50px;
-  font-family: open-sans, helvetica, sans-serif;
 }
 
 
-// Bootstrap Overrides //
+// Change fonts to Open Sans
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Bootstrap Overrides
 .navbar-default {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -29,6 +37,12 @@ body {
   padding-right: 10px;
 }
 
+.glyphicon-star {
+  color: #F7CA18;
+}
+
+
+// Color changes for admin buttons
 .btn.btn-primary {
   color: white;
 }
@@ -49,12 +63,11 @@ body {
   color: #00ffff;
 }
 
-.glyphicon-star {
-  color: #F7CA18;
+.btn.btn-warning:hover {
+  color: #00ffff;
 }
 
 // Custom CSS //
-
 div h1 {
   color: #515253;
   padding-bottom: 10px;
