@@ -1,14 +1,23 @@
 // Customizations and Overrides //
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
 
 // HTML Elements //
 
 body {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 
-// Bootstrap Overrides //
+// Change fonts to Open Sans
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Bootstrap Overrides
 .navbar-default {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -32,18 +41,87 @@ body {
   color: #F7CA18;
 }
 
+
+// Color changes for admin buttons
+.btn.btn-primary {
+  color: white;
+}
+
+.btn.btn-danger {
+  color: white;
+}
+
+.btn.btn-primary:hover {
+  color: #00ffff;
+}
+
+.btn.btn-danger:hover {
+  color: #00ffff;
+}
+
+.btn.btn-success:hover {
+  color: #00ffff;
+}
+
+.btn.btn-warning:hover {
+  color: #00ffff;
+}
+
 // Custom CSS //
+div h1 {
+  color: #515253;
+  padding-bottom: 10px;
+}
+
+div .pull-right p {
+  margin-bottom: 15px;
+}
+
+.title {
+  padding-top: -10px;
+}
+
 .ice {
   height: 350px;
   margin-top: 5px;
-  padding: 10px;
-  box-shadow: 2px 1px 5px #ccc;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.ice-title {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.ice-description {
+  height: 90px;
+}
+
+.ice-description p {
+  margin-top: -10px;
+}
+
+.ice-assigned {
+  height: 80px;
+}
+
+.ice a {
+  color: #067acc;
 }
 
 .ice a:hover {
   text-decoration: none;
-  border-bottom: 3px solid #b4e7f8;
-  box-shadow: inset 0 -5px 0 #b4e7f8;
+  color: #0099ff;
+  // border-bottom: 3px solid #b4e7f8;
+  // border-bottom-left-radius: 5px;
+  // box-shadow: inset 0 -5px 1px #b4e7f8;
+}
+
+.session-box {
+  margin-top: 40px;
 }
 
 .clear {
