@@ -16,7 +16,7 @@
         <h3>Schedule this talk: </h3>
         <%= form_for(@talk) do |f| %>
           <%= f.date_select(:speak_date, order: [:month, :day, :year]) %>
-          <%= f.submit "Schedule" %>
+          <%= f.submit "Schedule", class: "btn btn-sm btn-success" %>
         <% end %>
       <% else %>
         <h4>This talk is scheduled for: <br/>
